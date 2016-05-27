@@ -1,0 +1,17 @@
+baseurl = "http://jpalczewski.github.io/"
+languageCode = "pl"
+title = "jpalczewski blog"
+theme = "hyde-x"
+pygmentsstyle = "lovelace"
+
+[author]
+	name = "Jacek Palczewski"
+
+[params]
+
+tagline="_Yet another blog._"
+home="jpalczewski's blog"
+
+googleAnalytics="UA-64805347-2"
+github="https://github.com/jpalczewski"
+
