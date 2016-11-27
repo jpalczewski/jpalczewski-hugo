@@ -8,7 +8,7 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 cp -R public/* ../jpalczewski.github.io/
 # Add changes to git.
 cd ../jpalczewski.github.io/
-github add *
+git add *
 
 # Commit changes.
 msg="rebuilding site `date`"
