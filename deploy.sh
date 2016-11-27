@@ -22,3 +22,8 @@ git push origin master
 
 # Come Back
 cd ../jpalczewski-hugo
+
+# and push it too
+git add *
+git commit -m "$msg"
+git push origin master
