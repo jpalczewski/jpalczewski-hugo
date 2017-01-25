@@ -1,4 +1,4 @@
-baseurl = "http://jpalczewski.github.io/"
+baseurl = "https://jpalczewski.github.io/"
 languageCode = "pl"
 title = "jpalczewski blog"
 theme = "hyde-x"
