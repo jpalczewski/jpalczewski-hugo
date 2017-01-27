@@ -1,0 +1,6 @@
+      <div class="categories">
+        {{ range $key, $value := .Data.Terms.Alphabetical }}
+          <a class="post-category post-category-{{ $key | urlize }}" href="{{ $Site.BaseURL }}/{{ .LanguagePrefix }}categories/{{ $key | urlize }}">{{ $key }}</a>
+          
+        {{ end }}
+      </div>

@@ -1,17 +1,43 @@
 baseurl = "https://jpalczewski.github.io/"
 languageCode = "pl"
 title = "jpalczewski blog"
-theme = "hyde-x"
+theme = "hugo-redlounge"
 pygmentsstyle = "lovelace"
+DefaultContentLanguage = "pl"
+enableRobotsTXT = true
+defaultLayout = "posts"
+
+date_format = "2006-01-02"
 
 [author]
 	name = "Jacek Palczewski"
 
+[indexes] 
+    category = "categories" 
+    tag = "tags" 
+
 [params]
+    gaid="UA-64805347-2"
+    author = "Jacek Palczewski"
+    sidebartitle = "jpalczewski's blog"
+    sidebartagline = "zażółć gęślą jaźń"
 
-tagline="_Yet another blog._"
-home="jpalczewski's blog"
-
-googleAnalytics="UA-64805347-2"
+[[menu.main]]
+    name = "Blog(PL)"
+    url = "/posts"
+    identifier = "blog-pl"
+    weight = 10
+[[menu.main]]
+    name = "Blog(EN)"
+    url = "/en/posts"
+    identifier = "blog-en"
+    weight = 20
 github="https://github.com/jpalczewski"
 ISO8601 = "2016-05-27T03:26:51+02:00"
+
+[Languages]
+[Languages.pl]
+[Languages.pl.params]
+
+[Languages.en]
+[Languages.en.params]
