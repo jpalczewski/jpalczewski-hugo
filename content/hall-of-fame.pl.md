@@ -3,17 +3,18 @@ categories = []
 date = "2016-06-04T02:19:25+02:00"
 description = ""
 keywords = []
-title = "Hall of fame"
+title = "Fajne rzeczy"
 menu = "main"
 weight = 40
 +++
-Asd.
+Fajne rzeczy, czyli wszystkie ukończone projekty z których jestem dumny.
 
-List of completed projects that I'm proud of.
 
 # [Animacja](https://github.com/jpalczewski/Animacja)
-An core 3.3 OpenGL project for another class - without using any high-level libraries(even without model-loading!) so it was a challenging one. The most helpful material that I found was [LearnOpenGL tutorial](http://www.learnopengl.com/) which helped me a lot.(Shaders are maybe a bit similar, but shh!) I wish I had more time, so I might implement a flashlight or something like that.  
+Aplikacja napisana w OpenGLu 3.3 na GKOMy - bez używania ładowania modeli było całkiem ciekawym przeżyciem - dość dużo korzystałem i całkiem miło wspominam [LearnOpenGL tutorial](http://www.learnopengl.com/).
 
 
 # [Kalman](https://github.com/jpalczewski/Kalman)
-Project for [ZPR](https://eres.elka.pw.edu.pl/eres/wwersje$.startup?Z_ID_PRZEDMIOTU=ZPR)(Really enjoyable class!) - completed in one semester. Multi-language(connecting C++ and Python were an unforgettable experience) app which uses an Kalman filter to predict movement from sensors. While working on it, I discovered that Slack + Jenkins + Git can make a game-changer team, making developing multi-platform program and working in team a lot easier.  
+Projekt na  [ZPRy](https://eres.elka.pw.edu.pl/eres/wwersje$.startup?Z_ID_PRZEDMIOTU=ZPR)(Całkiem fajne, polecam!) - aplikacja składała się z części pisanej w C++ i Pythonie(łączenie ich było... wymagające). Aplikacja robiła to na co wskazuje nazwa, czyli korzystała z filtra Kalmana do przewidywania danych z czujników.
+
+Z ciekawszych wspomnień to przy tym projekcie odkryłem jak fajne potrafi być połączenie slack + jenkins + git - dzięki temu pisanie aplikacji na Linuxa i Windowsa jednocześnie było znacznie prostsze(a pisanie pod Windowsem w sensie MSVC a późniejsza kompilacja pod Linuxem ssie, bo obie implementacje C++ rozjeżdżają się w kilku miejscach - chociażby wspomnę o tym, że konstruktory `std::exception` w obu kompilatorach są zupełne różne).

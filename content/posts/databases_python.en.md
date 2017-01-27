@@ -11,12 +11,12 @@ Few thoughts from [NFZQueueViewer](https://github.com/jpalczewski/NFZQueueViewer
 <!--more-->
 
  - What happens when you plan that name from one column wouldn't exceed size of 100 chars?
-{{< highlight text >}} 
+{{< highlight text >}}
 NIEPUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ SANATORIUM UZDROWISKOWE "KRYSTYNKA" W CIECHOCINKU UTWORZONY PRZEZ OŚRDEK WCZASOWO-PROFILAKTYCZNY "KRYSTYNKA" SANATORIUM UZDROWISKOWE "KRYSTYNKA" SP. Z O.O. W CIECHOCINKU         208
-{{<  /highlight >}} 
+{{<  /highlight >}}
  - And why exception-based code in python is bad:
 
-{{< highlight ruby >}} 
+{{< highlight python >}} 
 def parrse_date(s):
     try:
         datetime.datetime.strptime(s, '%Y-%m-%d')
@@ -36,4 +36,3 @@ def parse_date2(s):
 >>> print(timeit.timeit("parse_date2('1970-01-01')", setup="from __main__ import parse_date2"))
 0.3313458009943133
 {{< /highlight >}}
-

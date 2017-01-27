@@ -12,15 +12,16 @@ date_format = "2006-01-02"
 [author]
 	name = "Jacek Palczewski"
 
-[indexes] 
-    category = "categories" 
-    tag = "tags" 
+[indexes]
+    category = "categories"
+    tag = "tags"
+
+nopaging = true
 
 [params]
     gaid="UA-64805347-2"
     author = "Jacek Palczewski"
     sidebartitle = "jpalczewski's blog"
-    sidebartagline = "zażółć gęślą jaźń"
 
 [[menu.main]]
     name = "Blog(PL)"
@@ -32,12 +33,25 @@ date_format = "2006-01-02"
     url = "/en/posts"
     identifier = "blog-en"
     weight = 20
-github="https://github.com/jpalczewski"
-ISO8601 = "2016-05-27T03:26:51+02:00"
+
+#about/hallflame - 30, 40
+
+[[menu.main]]
+		name = "Homepage(PL)"
+		url = "http://mion.elka.pw.edu.pl/~jpalczew/"
+		identifier = "homepage"
+		weight = 50
+
+
+[[menu.social]]
+    pre = "<i class='fa fa-github'></i>"
+    url = "https://github.com/jpalczewski"
+    identifier = "github"
+#github="https://github.com/jpalczewski"
+#ISO8601 = "2016-05-27T03:26:51+02:00"
 
 [Languages]
 [Languages.pl]
-[Languages.pl.params]
-
+sidebartagline = "Zażółć gęślą jaźń."
 [Languages.en]
-[Languages.en.params]
+sidebartagline = "Yellowing duck mind."

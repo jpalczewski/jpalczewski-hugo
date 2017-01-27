@@ -22,4 +22,4 @@ goto loop
 
 Don't do it.
 
-And what was the reason? Windows 7 in this particular situation didn't allow me to change time - it was still changing, no matter what I had done - so, such a dirty trick was a way to do what I want to do. 
+And what was the reason? Windows 7 in this particular situation didn't allow me to change time - it was still changing, no matter what I had done - so, such a dirty trick was a way to do what I want to do.
