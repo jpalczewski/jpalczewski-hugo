@@ -3,7 +3,7 @@ categories = ["elka","know-how"]
 date = "2016-01-09T01:34:29+02:00"
 description = ""
 keywords = ["elka"]
-title = "Jak skonfiguorwać pocztę na elce?"
+title = "Jak skonfigurować pocztę na elce?"
 
 +++
 
