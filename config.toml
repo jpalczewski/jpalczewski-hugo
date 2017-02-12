@@ -6,7 +6,7 @@ pygmentsstyle = "lovelace"
 DefaultContentLanguage = "pl"
 enableRobotsTXT = true
 defaultLayout = "posts"
-
+disqusShortname="jpalczewski-blog"
 date_format = "2006-01-02"
 
 
