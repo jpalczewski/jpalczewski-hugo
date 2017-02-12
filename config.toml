@@ -9,6 +9,7 @@ defaultLayout = "posts"
 
 date_format = "2006-01-02"
 
+
 [author]
 	name = "Jacek Palczewski"
 
@@ -16,12 +17,12 @@ date_format = "2006-01-02"
     category = "categories"
     tag = "tags"
 
-nopaging = true
 
-[params]
+[Params]
     gaid="UA-64805347-2"
     author = "Jacek Palczewski"
     sidebartitle = "jpalczewski's blog"
+
 
 [[menu.main]]
     name = "Blog(PL)"
@@ -47,8 +48,6 @@ nopaging = true
     pre = "<i class='fa fa-github'></i>"
     url = "https://github.com/jpalczewski"
     identifier = "github"
-#github="https://github.com/jpalczewski"
-#ISO8601 = "2016-05-27T03:26:51+02:00"
 
 [Languages]
 [Languages.pl]
